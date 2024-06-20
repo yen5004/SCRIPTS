@@ -1,9 +1,9 @@
-Used when you have a function that needs to call a function from with in a script
+Used when you have a function that needs to call a function from within a script
 
 > me
 > 
 
-i have a script that has a function in it, after it runs I want to be able to run call another function from within the script, how do I tdo that, and show me a simple working example for kali linux
+I have a script that has a function in it; after it runs, I want to be able to run call another function from within the script, how do I tdo that, and show me a simple working example for kali linux
 
 > ChaptGPT
 > 
