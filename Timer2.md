@@ -4,7 +4,7 @@ Timers 2
 
 A simple timer that displays time, including seconds and nanoseconds:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/75f7b34f-2731-4858-a3ae-a70340fa33f9/Untitled.png)
+![image1][(https://github.com/yen5004/SCRIPTS/blob/main/Untitled.png)
 
 ```bash
 while true; do printf '%s\r' "$(date +%H:%M:%S:%N)"; done
