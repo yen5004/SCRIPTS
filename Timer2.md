@@ -13,7 +13,7 @@ while true; do printf '%s\r' "$(date +%H:%M:%S:%N)"; done
 
 A simple timer that displays time, including seconds:
 
-![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled1.png)
+![Untitled2](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled1.png)
 
 ```bash
 while true; do printf '%s\r' "$(date +%H:%M:%S)"; done
@@ -22,7 +22,7 @@ while true; do printf '%s\r' "$(date +%H:%M:%S)"; done
 
 Plain timer:
 
-![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled2.png)
+![Untitled3](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled2.png)
 ```jsx
 # Another timer shows seconds:
 start=$(date +%s)
@@ -40,7 +40,7 @@ time cat
 
 ```
 
-![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled3.png)
+![Untitled4](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled3.png)
 oooor
 
 Doesn't work for Kali: must ctrl + c  to stop and display time
@@ -125,7 +125,7 @@ echo -ne "\r$i " returns caret to beginning of the string and prints current $i 
 
 prints out seconds on screen:
 
-![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled5.png)
+![Untitled5](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled4.png)
 ```bash
 for i in `seq 60 -1 1` ; do echo -ne "\r$i " ; sleep 1 ; done
 ```
@@ -264,4 +264,4 @@ You can use the `spinner` function with any command, and it will display the spi
 
 SS:
 
-![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled6.png)
+![Untitled6](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled5.png)
