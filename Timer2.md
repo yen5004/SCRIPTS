@@ -89,7 +89,7 @@ kill $!; trap 'kill $!' SIGTERM
 echo done
 ```
 
-Instead of using the “sleep 10” command, run any command you want.
+Run any command you want instead of using the “sleep 10” command.
 
 When that command finishes executing, this will kill the last job running in the background (which is the infinite while loop)
 
@@ -152,7 +152,7 @@ in `seq 60 -1 1` ; do echo -ne "\r$i " ; sleep 1 ; done
 > ChatGPT
 > 
 > 
-> ![ChatGPT.gif](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/d1c430fc-e757-4406-8947-97928361c53a/ChatGPT.gif)
+> ![ChatGPT.gif](https://github.com/yen5004/SCRIPTS/blob/d2c1507aed4dce8a484cfc4654dc388a6960ca36/ChatGPT.gif)
 > 
 
 Certainly! Here's your script as a one-liner:
@@ -178,7 +178,7 @@ Explanation:
 > 
 > 
 
-[ChatGPT.ico](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/a13c3c2b-3f69-42d9-9636-7f97d2d7698e/ChatGPT.ico)
+[ChatGPT.ico](https://github.com/yen5004/SCRIPTS/blob/d2c1507aed4dce8a484cfc4654dc388a6960ca36/ChatGPT.gif)
 
 Yes, you can create a function that takes a command as an argument and executes it while displaying the spinning animation. Here is how you can do it:
 
