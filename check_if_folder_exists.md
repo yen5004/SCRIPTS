@@ -3,9 +3,7 @@ i want to write files to a directory, but want to make sure that the files arent
 ChatGPT
 To check if a file exists before writing to it in a directory, you can use a script. The approach can vary depending on the scripting language you are using. Below are examples in Python, Bash, and PowerShell.
 
-Python
-python
-Copy code
+#Python
 import os
 
 def write_file_if_not_exists(directory, filename, content):
@@ -22,9 +20,12 @@ directory = 'path/to/your/directory'
 filename = 'example.txt'
 content = 'This is an example content.'
 write_file_if_not_exists(directory, filename, content)
-Bash
-bash
-Copy code
+
+
+
+
+#Bash
+
 #!/bin/bash
 
 directory="path/to/your/directory"
@@ -38,9 +39,12 @@ if [ ! -f "$filepath" ]; then
 else
     echo "File '$filename' already exists in '$directory'."
 fi
-PowerShell
-powershell
-Copy code
+
+
+
+
+#PowerShell
+
 $directory = "path\to\your\directory"
 $filename = "example.txt"
 $content = "This is an example content."
@@ -52,6 +56,9 @@ if (-Not (Test-Path $filepath)) {
 } else {
     Write-Output "File '$filename' already exists in '$directory'."
 }
+
+
+
 In each of these scripts:
 
 Python: The os.path.exists() function checks if the file already exists.
