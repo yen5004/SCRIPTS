@@ -13,7 +13,7 @@ while true; do printf '%s\r' "$(date +%H:%M:%S:%N)"; done
 
 A simple timer that displays time, including seconds:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/367ee8fa-5ed0-4c82-90f7-44c7638843ee/Untitled.png)
+![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled1.png)
 
 ```bash
 while true; do printf '%s\r' "$(date +%H:%M:%S)"; done
@@ -22,8 +22,7 @@ while true; do printf '%s\r' "$(date +%H:%M:%S)"; done
 
 Plain timer:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/8dfc5198-aaed-4666-bdbe-e5653db22021/Untitled.png)
-
+![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled2.png)
 ```jsx
 # Another timer shows seconds:
 start=$(date +%s)
@@ -41,8 +40,7 @@ time cat
 
 ```
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/ea39f506-ed7f-4796-8ded-64087b42633d/Untitled.png)
-
+![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled3.png)
 oooor
 
 Doesn't work for Kali: must ctrl + c  to stop and display time
@@ -127,8 +125,7 @@ echo -ne "\r$i " returns caret to beginning of the string and prints current $i 
 
 prints out seconds on screen:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/276d21da-de17-4440-8fe7-1fb67fc8ee2a/Untitled.png)
-
+![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled5.png)
 ```bash
 for i in `seq 60 -1 1` ; do echo -ne "\r$i " ; sleep 1 ; done
 ```
@@ -267,4 +264,4 @@ You can use the `spinner` function with any command, and it will display the spi
 
 SS:
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/eb6c5f10-6443-40c9-91ab-8b430b257fed/10c56a90-57dc-4355-96cf-4d26e2413bd2/Untitled.png)
+![Untitled](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled6.png)
