@@ -22,7 +22,7 @@ while true; do printf '%s\r' "$(date +%H:%M:%S)"; done
 
 Plain timer:
 
-![Untitled3](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled(2).png)
+![Untitled3](https://github.com/yen5004/SCRIPTS/blob/5786b79c3a346658b8eda692a59692f78493f0a8/Untitled%20(2).png)
 ```jsx
 # Another timer shows seconds:
 start=$(date +%s)
