@@ -40,7 +40,8 @@ time cat
 
 ```
 
-![Untitled4](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled(3).png)
+![Untitled4](https://github.com/yen5004/SCRIPTS/blob/5c5f70792d0836e8080e5b2dbe59c7a5afacf0e6/Untitled%20(3).png)
+
 oooor
 
 Doesn't work for Kali: must ctrl + c  to stop and display time
@@ -125,7 +126,7 @@ echo -ne "\r$i " returns caret to beginning of the string and prints current $i 
 
 prints out seconds on screen:
 
-![Untitled5](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled(4).png)
+![Untitled5](https://github.com/yen5004/SCRIPTS/blob/5c5f70792d0836e8080e5b2dbe59c7a5afacf0e6/Untitled%20(4).png)
 ```bash
 for i in `seq 60 -1 1` ; do echo -ne "\r$i " ; sleep 1 ; done
 ```
@@ -264,4 +265,4 @@ You can use the `spinner` function with any command, and it will display the spi
 
 SS:
 
-![Untitled6](https://github.com/yen5004/SCRIPTS/blob/4b1095d47fbacb6f6f44a6eb0920471a6ddb26d3/Untitled(5).png)
+![Untitled6](https://github.com/yen5004/SCRIPTS/blob/5c5f70792d0836e8080e5b2dbe59c7a5afacf0e6/Untitled%20(5).png)
