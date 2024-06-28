@@ -1,0 +1,1 @@
+dpgk -l | grep -qw cowsay || sudo apt install -yyq cowsay
